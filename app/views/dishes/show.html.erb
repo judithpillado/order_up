@@ -4,4 +4,5 @@
   <%= ingredient.name %>
 <% end  %>
 
-<h3> <%= "Cooked by #{@dish.chef.name}" %>  </h3> 
+<%= "Total calorie count: #{@dish.total_calories}" %>
+<h1> <%= "Cooked by #{@dish.chef.name}" %> </h1>
